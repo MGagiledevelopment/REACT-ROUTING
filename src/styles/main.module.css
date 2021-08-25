@@ -1,0 +1,66 @@
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(165, 162, 162, 0.397);
+}
+.courses {
+  margin-top: 2rem;
+  border-radius: 2rem;
+  width: 60%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list {
+  list-style: none;
+  font-size: 1.9rem;
+  padding: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
+}
+.home {
+  padding: 2rem;
+  font-size: 2rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 80%;
+  margin-top: 2rem;
+  border-radius: 2rem;
+}
+
+.iconhome {
+  margin: 2rem;
+}
+
+.events {
+  list-style: none;
+  padding: 3rem;
+  text-align: center;
+  font-size: 1.9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
+}
+
+.listEvents {
+  margin-top: 2rem;
+  border-radius: 2rem;
+  width: 60%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
