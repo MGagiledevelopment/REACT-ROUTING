@@ -10,7 +10,7 @@ export default function () {
         alt="image"
         width="111rem"
       />
-      <h1>Ingresá a nuestra sección de cursos para saber más.</h1>
+      <h1>Ingresá a la sección de cursos para saber más.</h1>
     </div>
   );
 }
