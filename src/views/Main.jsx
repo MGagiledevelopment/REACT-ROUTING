@@ -8,13 +8,16 @@ import Course from "../components/Course";
 import Notfound from "../components/Notfound";
 
 export default function Seccion2() {
+  
   return (
     <div className={mainStyles.main}>
       <Switch>
       <Route component={Home} exact path="/"></Route>
       <Route component={ListCourses} path="/listaCursos"></Route>
       <Route component={NextEvents} path="/proximoseventos"></Route>
-      <Route component={Course} path="/curso/:id"></Route>
+      <Route exact render={()=>{
+        return <Course name/>
+      }} path="/curso/:id"></Route>
       <Route component={Notfound} path="*"></Route>
       </Switch>
     </div>
