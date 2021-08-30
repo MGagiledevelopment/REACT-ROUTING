@@ -2,21 +2,21 @@ export const cursos = [
   {
     id: "1",
     name: "UX/UI",
-    className: "ux",
+    className: "UX",
   },
   {
     id: "2",
     name: "Data Science",
-    className: "ds",
+    className: "DATA SCIENCE",
   },
   {
     id: "3",
     name: "Desarrollo Back-end",
-    className: "fsv",
+    className: "BACK-END",
   },
   {
     id: "4",
     name: "Desarrollo Front-end",
-    className: "fa",
+    className: "FRONT-END",
   },
 ];

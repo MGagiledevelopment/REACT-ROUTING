@@ -14,7 +14,7 @@ export default function Header() {
         </li>
         <li>
           {" "}
-          <Link className={headerStyles.li} to="/cursos">
+          <Link className={headerStyles.li} to="/listacursos">
             {" "}
             Cursos{" "}
           </Link>
