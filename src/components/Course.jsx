@@ -20,7 +20,7 @@ export default function Course(props) {
           } else return <div key={curso.id}></div>;
         })}
       </div>
-      <button onClick={history.goBack}>REGRESAR</button>
+      <button onClick={history.goBack} className={courseStyles.buttonback}>REGRESAR</button>
     </div>
   );
 }

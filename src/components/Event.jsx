@@ -17,7 +17,7 @@ export default function Event(props) {
           } else return <div key={event.id}></div>;
         })}
       </div>
-      <button onClick={history.goBack}>REGRESAR</button>
+      <button onClick={history.goBack} className={eventStyles.buttonback}>REGRESAR</button>
     </div>
   );
 }
