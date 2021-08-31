@@ -4,7 +4,6 @@ import mainStyles from "../styles/main.module.css";
 import { cursos } from "../utils/courses";
 
 export default function ListCourses() {
-  
   return (
     <ul className={mainStyles.courses}>
       {cursos.map((curso) => {

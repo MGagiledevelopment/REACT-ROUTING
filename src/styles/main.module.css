@@ -20,7 +20,7 @@
   padding: 3rem;
   text-align: center;
   text-decoration: none;
-  color:black;
+  color: black;
   margin-top: 2rem;
   margin-bottom: 2rem;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
@@ -29,7 +29,7 @@
 }
 
 .list:hover {
-  background-color:rgba(99,148,167,0.2);
+  background-color: rgba(99, 148, 167, 0.2);
   text-decoration: none;
 }
 .home {
@@ -58,7 +58,7 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-decoration: none;
-  color:black;
+  color: black;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
   -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
   box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
@@ -80,21 +80,21 @@
 }
 .course {
   height: 80vh;
-  padding:2rem;
-  display:flex;
-  align-items:center;
-  flex-direction:column;
-  justify-content:space-evenly;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .description {
   /* border:1px solid black; */
-  font-size:2rem;
-  text-align:center;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.description :nth-child(1){
-  font-size:4rem;
-  margin-bottom:2rem;
+.description :nth-child(1) {
+  font-size: 4rem;
+  margin-bottom: 2rem;
 }
 
 .notfound {

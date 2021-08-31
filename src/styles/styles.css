@@ -16,11 +16,11 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-.footer{
-  color:grey;
+.footer {
+  color: grey;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin:2rem;
+  margin: 2rem;
   font-size: 1.5rem;
 }
