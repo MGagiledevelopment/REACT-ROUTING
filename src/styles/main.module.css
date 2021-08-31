@@ -101,18 +101,19 @@
   font-family: 'Roboto';
   background-color: rgba(252, 231, 126, 0.212);
   border-radius: 2rem;
-  border:0.2rem solid grey;
+  border:none;
   display: flex;
   align-items: center;
   padding:1rem;
   height: 4rem;
   font-size: 2rem;
-}
-.buttonback:hover{
   -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
   -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
   box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.89);
+}
+.buttonback:hover{
   font-size: 2.1rem;
+  transition: all 0.2s;
 }
 
 .notfound {
