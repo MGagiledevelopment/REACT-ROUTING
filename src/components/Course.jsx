@@ -16,8 +16,8 @@ export default function Course(props) {
         <h1>Usted está en el curso de {id}</h1>
         {cursos.map((curso) => {
           if (curso.className === params.id) {
-            return <div>{curso.description}</div>;
-          } else return <></>;
+            return <div key={curso.id}>{curso.description}</div>;
+          } else return <div key={curso.id}></div>;
         })}
       </div>
       <button onClick={history.goBack}>REGRESAR</button>

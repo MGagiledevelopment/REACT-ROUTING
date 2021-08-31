@@ -5,11 +5,10 @@ import { events } from "../utils/events.js";
 
 export default function NextEvents() {
   return (
-    <ul className={mainStyles.listEvents}>
+    <ul key="1" className={mainStyles.listEvents}>
       {events.map((event) => {
-        console.log(event);
         return (
-          <Link to={`/evento/${event.name}`} className={mainStyles.events}>
+          <Link key={event.id} to={`/evento/${event.name}`} className={mainStyles.events}>
             <li key={event.id}>{event.name}</li>
           </Link>
         );

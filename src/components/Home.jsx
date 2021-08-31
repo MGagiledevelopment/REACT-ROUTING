@@ -7,7 +7,7 @@ export default function () {
       <img
         className={mainStyles.iconhome}
         src="./images/education.svg"
-        alt="image"
+        alt="img"
         width="111rem"
       />
       <h1>Ingresá a la sección de cursos para conocer más.</h1>
