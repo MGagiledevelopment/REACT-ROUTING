@@ -8,20 +8,20 @@ export const cursos = [
   },
   {
     id: "2",
-    name: "Data Science",
+    name: "DATA-SCIENCE",
     className: "DATA-SCIENCE",
     description:
       "Aprendé a manipular la infinita cantidad de datos a nuestro alcance para crear impacto.",
   },
   {
     id: "3",
-    name: "Desarrollo Back-end",
+    name: "DESARROLLO-BACK-END",
     className: "BACK-END",
     description: "esta es la descripcion DWBE",
   },
   {
     id: "4",
-    name: "Desarrollo Front-end",
+    name: "DESARROLLO-FRONT-END",
     className: "FRONT-END",
     description:
       "Aprendé a usar REACT, la librería creada por Facebook que está transformando la manera de crear aplicaciones web.",

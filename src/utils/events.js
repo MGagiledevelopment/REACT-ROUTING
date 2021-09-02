@@ -1,18 +1,18 @@
 export const events = [
   {
     id: "1",
-    name: "GitHub WORKSHOP",
+    name: "GitHub-WORKSHOP",
   },
   {
     id: "2",
-    name: "Diseñando con FIGMA",
+    name: "Diseñando-con-FIGMA",
   },
   {
     id: "3",
-    name: "JavaScript avanzado",
+    name: "JavaScript-avanzado",
   },
   {
     id: "4",
-    name: "Aprendiendo desarrollo ágil",
+    name: "Aprendiendo-desarrollo-ágil",
   },
 ];

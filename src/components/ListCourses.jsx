@@ -8,8 +8,12 @@ export default function ListCourses() {
     <ul key="1" className={mainStyles.courses}>
       {cursos.map((curso) => {
         return (
-          <Link key={curso.id} to={`curso/${curso.className}`} className={mainStyles.list}>
-            <li key={curso.id}>{curso.name}</li>
+          <Link
+            key={curso.id}
+            to={`curso/${curso.name}`}
+            className={mainStyles.list}
+          >
+            <li key={curso.id}> {curso.name} </li>
           </Link>
         );
       })}
