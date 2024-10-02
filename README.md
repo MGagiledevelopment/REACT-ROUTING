@@ -1,5 +1,5 @@
 ## React Routing
 
-👨🏽‍💻▶︎ Una aplicación simple montada en React para poder ejemplificar el funcionamiento del enrutamiento dinámico, utilizando "React Router".
+👨🏽‍💻▶︎ A simple application built on React to exemplify the operation of dynamic routing, using "react router".
 
-🛠▶︎Podés ver el trabajo acá: https://react-routing-site.netlify.app/ .
+🛠▶︎You can see the work here: https://react-routing-site.netlify.app/ .
